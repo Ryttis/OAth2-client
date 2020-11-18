@@ -1,0 +1,11 @@
+{
+    "providers": {
+        "rates":"https://api.exchangeratesapi.io/latest",
+        "bin":"https://lookup.binlist.net/",
+        "countries":"https://restcountries.eu/rest/v2/region/europe"
+    },
+    "file": {
+        "name":"input.txt",
+        "class":"App\\LoadTansactionsFromTxt"
+    }
+}
